@@ -1,0 +1,200 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: white;
+    height: 50vh;
+}
+h3{
+    color:cornflowerblue;
+}
+.container {
+    width: 600px;
+    height: 600px;
+    background: white;
+    display:contents;
+    margin: 100px ;
+    position:relative;
+}
+
+
+h6 {
+    margin:60px;
+font-size: 30px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#selectcountry  {
+   
+    font-family:"comic sans ms","comic sans", cursive ;
+    position: relative;
+    top:50px;
+    right: 30px;
+   
+}
+
+
+#date{
+    margin-bottom: 300px;
+  }
+  
+
+  
+  .block1{
+    margin-left : 30%;
+    width: 20%;
+}
+
+.blockTime{
+    display:inline-block;
+}
+
+
+#ville{
+    display:inline-block;
+    margin-top: 5%;
+}
+#ville2{
+    display:inline-block;
+}
+
+
+.weather{
+    font-size: 15px;
+}
+
+
+#imgs{
+    width: 65%;
+    height: 40%;
+}
+
+
+.weatherTab{
+    display:inline-block;
+    width: 30%;
+    margin-top: 3%;
+    height: 60%;
+    margin-left: 3%;
+}
+#maxval{
+    display:inline-block;
+}
+.designcity{
+    margin-top: 1%;
+    margin-left: 10px;
+}
+
+.prec{
+    display: inline-block;
+}
+.de1{
+    font-size: 10px;
+    width: 6%;
+    margin-bottom: -5px;
+}
+.de2{
+    font-size: 10px;
+    width: 10%;
+    margin-bottom: -5px;
+}
+
+.wrapper{
+        width: 100%;
+    }
+    
+    .part2{
+        margin-top: -50px;
+        margin-right: 5%    ;
+    }
+    #imgs{
+        width: 100%;
+        height: 50%;
+        margin-top: 10%
+    };
+    #tablesty{
+        font-size: 15px;
+    }
+    #selectcountry{
+        margin-right: 6%;
+        margin-bottom: 10%;
+        display: flex;
+        flex: 1;
+        float: right!important;
+        height: 100%;
+        width: 12%;
+        height: 50%;
+       
+        font-size: 20px;
+    }
+    #propert{
+        margin-left: 20%;
+    }
+    #timeprop{
+        display:inline-block;
+        margin-left: 1%;
+    }
+    .Time{
+        margin-left: 90%;
+        margin-top: 0.5%;
+    }
+    .countrysit{
+        display:block;
+        margin-top: -20px;
+        font-size: 20px;
+        margin-bottom: -50px;
+    }
+    .part1{
+        display:block;
+        margin-top: -20px;
+        font-size: 20px;
+        margin-bottom: -50px;
+    }
+    .blockTime{
+        display:inline-block;
+        margin-right: 20px;
+        width: 30%;
+    }
+    .properties{
+        margin-top: 100%;
+        width: 20%;
+        display: block;
+    }
+    .weatherTab{
+        display:inline-block;
+        width: 10%;
+        margin-top: 5%;
+        margin-left: 3%;
+        font-size: 20px;
+    }
+
+    .titles{
+        text-align: center;
+        width: 90%;
+        font-size: 70px;
+        margin-top: 5%;
+       
+    }
+    .designcity{
+        margin-top: -17%;
+        margin-left: 50px;
+    }
+  
+    .footer{
+        text-align: right;
+        font-size: 20px;
+        margin-top: 8%;
+        margin-right: 8%;
+        margin-bottom: 4%;
+        
+    }
+  
+   
+    
+

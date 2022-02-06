@@ -1,0 +1,48 @@
+
+    #display{
+        width: 30%;
+    }
+    
+  h4 {
+    margin:60px;
+font-size: 30px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+  h3 {
+color:black
+}
+.image{
+        width: 20%;
+    }
+    
+  
+    .source{
+        display: inline-block;
+        margin-left: 50%;
+        font-size: 20px;
+        width: 30%;
+        margin-bottom: 10px;
+    }
+    
+    #temps{
+        margin-top: -5%;
+        height: 500px;
+    }
+    
+  
+    
+    footer {
+        clear: both;
+        position: relative;
+        font-size: 20px;
+        margin-left:75%;
+        margin-top: 600px;
+        }
+        
+    
+    
+    
+    
+    

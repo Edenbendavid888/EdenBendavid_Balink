@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+    <div class="wrapper">
+    <head>
+        <link rel="stylesheet" type="text/css" href="style.css"/>
+        <link rel="stylesheet" type="text/css" href="SpecificDay.css"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+       <h4>Info Weather</h4>
+       <div class="part1">
+            <select class="country" name="country" id="selectcountry" >
+                <option>Select a country</option>
+                <option value="2459115">New York</option>
+                <option value="2442047">Los Angeles</option>
+                <option value="610264">Marseille</option>
+                <option value="753692">Barcelona</option>
+                <option value="721943">Rome</option>
+            </select>
+        </div>
+ 
+   
+    </head>
+
+    <page>
+        <p>Select a date:</p>
+
+        <input type="date" id="date" name="weather-start"
+               value="2022-02-07"
+               min="2022-02-06" max="2022-02-06">
+        
+        <div class="NomVille" >
+            <div  id="ville">
+                <h1 class="city"><b>New York</b></h1>
+            </div>
+           
+           
+        </div>
+           <div style="margin-left: 2%;margin-top: 10%;">
+            <div id="temps">
+                <div id="display" class="tablesty"></div>
+                <div class="source" > 
+                    <div ><h3><b>Sources</b></h3></div>
+                    <div style="color: blue;" ><a  href="https://www.bbc.com/weather"></a><img class="de2" src="images/BBC.png">BBC</div>
+                    <div style="color: blue;"><a  href="https://www.metoffice.gov.uk/"></a><img class="de1" src="images/met.png">Met Office</div>
+                    <div style="color: blue;"><a  href="https://darksky.net/forecast/"></a><img class="de1" src="images/forecast.jpeg">Forecast.io</div>
+                    <div style="color: blue;"><a  href="https://www.weather-forecast.com/locations/Ham/forecasts/latest"></a><img class="de1" src="images/ham.png">HAMweather</div>
+                    <div style="color: blue;"><a  href="https://openweathermap.org/"></a><img class="de1" src="images/openweath.png">OpenWeatherMap</div>
+                    <div style="color: blue;"><a  href="https://www.wunderground.com/"></a><img class="de1" src="images/weatherunder.png">Weather Underground</div>
+                    <div style="color: blue;"><a href="https://www.worldweatheronline.com/"></a><img class="de1" src="images/worldweather.png">World Weather Online</div>
+                </div>
+            </div>   
+      </div> 
+    </page>
+    <div id="display2">
+    </div>
+    <footer>
+        <b>© Weather, Inc. 2021.We love weather</b>
+    </footer>
+    <script src="script.js"></script>
+    <script> let info = false;</script>
+</div> 
+</html>
